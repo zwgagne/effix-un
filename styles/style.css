@@ -6,20 +6,47 @@
 }
 
 .main-header{
-    min-height: 147px;
-    padding: 1px 0px 0px 0px;
+     min-height: 147px ;
+    
 }
+   
+    
 
 .main-title { 
+    display: inline-block;
+    margin: 0;
+    margin-top: 20px;
+    padding-left: 25px;
     font-family: Francois One, sans-serif ;
     font-size: 72px;
+    font-weight: normal;
     color: rgba(255, 103, 56)
 }
 
 .sub-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 32px;
+    padding-right: 112px;
     font-family: Francois One, sans-serif ;
     font-size: 34px;
     color: rgba(255, 103, 56)
+    
+}
+
+.sub-header {
+    width: 100%;
+    height: 46px;
+
+}
+
+.light-line {
+    display: inline-block;
+    height: 9px;
+    width: 676px;
+    background: rgba(255, 103, 56);
+
+
 }
 
 .wrapper {
@@ -27,8 +54,20 @@
     margin: 0 auto;
 }
 
+.left {
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
 .clear-fix { 
     clear: both;
+}
+
+.orange{
+    background-color: rgba(255, 103, 56);
 }
 
 .kindaorange {
