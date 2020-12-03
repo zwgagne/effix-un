@@ -1,1 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Montserrat:wght@400;700;900&display=swap');
+
+.body{
+    background-color: rgba(229, 229, 229);
+    width: 100%;
+}
+
+.main-header{
+    min-height: 147px;
+    padding: 1px 0px 0px 0px;
+}
+
+.main-title { 
+    font-family: Francois One, sans-serif ;
+    font-size: 72px;
+    color: rgba(255, 103, 56)
+}
+
+.sub-title {
+    font-family: Francois One, sans-serif ;
+    font-size: 34px;
+    color: rgba(255, 103, 56)
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.clear-fix { 
+    clear: both;
+}
+
+.kindaorange {
+    background-color: rgba(255, 213, 158);
+}
