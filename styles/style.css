@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-.main-header{
+#main-header{
      min-height: 147px ;
     
 }
@@ -28,17 +28,43 @@
     margin-bottom: 10px;
     margin-top: 32px;
     padding-right: 112px;
-    font-family: Francois One, sans-serif ;
+    font-family: Francois One, sans-serif;
     font-size: 34px;
     color: rgba(255, 103, 56)
     
 }
 
-.sub-header {
-    width: 100%;
+#main-nav {
     height: 46px;
+    background: rgba(255, 103, 56);
+}
+
+#main-nav ul {
+    margin: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#main-nav li > a {
+    margin-top: 12px;
+    margin-left: 20px;
+    display: inline-block;
 
 }
+#main-nav li > a,
+#main-nav li > a:visited, 
+#main-nav li > a:active{
+    color: rgba(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
 
 .light-line {
     display: inline-block;
