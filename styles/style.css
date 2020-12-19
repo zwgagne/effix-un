@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Montserrat:wght@400;700;900&display=swap');
 
 .body{
-    background-color: rgba(229, 229, 229);
     width: 100%;
 }
 
 #main-header{
      min-height: 147px ;
+     background-color: rgba(255, 213, 158);
     
 }
    
@@ -64,8 +64,61 @@
     text-decoration: none;
 }
 
+.presentation{
+    max-width: 640px;
+    margin: 10px 0px 10px 0px;
+}
 .fondateur{
     background-image: /img ;
+}
+
+form{
+    margin-left: 20px;
+}
+
+input, textarea {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    color: #b7b7b7;
+    border: none;
+    background-color: #FFD59E;
+    margin: 12px 10px 12px 0px;
+    padding: 25px;
+
+}
+
+#nom {
+    width: 365px;
+}
+
+#prenom {
+    width: 520px;
+}
+
+#courriel, #telephone{
+    width: 616px;
+}
+
+#submit {
+    background-color: #FF6738;
+    color: white;
+    font-weight: 600;
+    margin: 0 0 20px 600px;
+    width: 310px;
+    height: 8px;
+    
+}
+
+.main-footer{
+    background-color: #c4c4c4;
+    height: 300px;
+    margin: 0;
+}
+.paragraph-footer{
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 0 80px;
 }
 
 
@@ -94,6 +147,11 @@
 
 .clear-fix { 
     clear: both;
+}
+
+.working{
+    margin: 0 20px 40px 0;
+    
 }
 
 .orange{
