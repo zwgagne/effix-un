@@ -66,33 +66,69 @@
 
 .presentation{
     max-width: 640px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 78px 0px;
+    font-family: 'Montserrat';
+    font-size: 14px;
 }
 .fondateur{
-    background-image: /img ;
+    background-color: #FFD59E;
+    height: 700px;
+}
+
+.lefondateur{
+    font-family: 'Montserrat';
+    color: rgba(255, 103, 56);
+    font-weight: 720;
+    font-size: 36px;
+    left: 700px;
+    top: -50px;
+    margin: 0;
+    width: 320px;
+}
+
+.col01{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    max-width: 420px;
+    margin: 0px 10px 20px 80px;
+}
+
+.col02{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    width: 420px;
+    margin: 0px 0px 20px 10px;
+}
+
+h3{
+    color: #FFA938;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
 }
 
 form{
-    margin-left: 20px;
+    font-family: 'Montserrat';
+
 }
 
 input, textarea {
-    font-family: 'Montserrat' sans-serif;
     font-size: 24px;
     color: #b7b7b7;
     border: none;
-    background-color: #FFD59E;
-    margin: 12px 10px 12px 0px;
-    padding: 25px;
+    background-color: rgba(255, 213, 158);
+    margin: 20px 10px 20px 0px;
+    padding: 20px;
 
 }
 
 #nom {
-    width: 365px;
+    width: 30spx;
 }
 
 #prenom {
-    width: 520px;
+    width: 560px;
 }
 
 #courriel, #telephone{
@@ -102,10 +138,11 @@ input, textarea {
 #submit {
     background-color: #FF6738;
     color: white;
-    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size: 24px;
     margin: 0 0 20px 600px;
     width: 310px;
-    height: 8px;
+    height: 86px;
     
 }
 
@@ -115,21 +152,50 @@ input, textarea {
     margin: 0;
 }
 .paragraph-footer{
-
+    font-family: 'Montserrat';
     font-size: 18px;
     font-weight: bold;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 30px;
+}
+
+.nosservices{
+    font-family: 'Francois One';
+    font-size: 48px;
+    margin-right: 29px;
+    color: rgba(255, 103, 56);
+
+}
+
+.servicetype{
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+    color: rgba(255, 103, 56);
+    font-size: 36px;
+    font-weight: 800;
+    
+}
+
+.servicedescription{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    max-width: 480px;
+
 }
 
 
 
-.light-line {
+.light-line{
     display: inline-block;
     height: 9px;
-    width: 676px;
+    width: 726px;
     background: rgba(255, 103, 56);
+}
 
-
+.large-line{
+    background-color: #FF6738;
+    width: 600px;
+    height: 54px;
+    margin: 40px 0px 40px 0px;
 }
 
 .wrapper {
@@ -160,4 +226,25 @@ input, textarea {
 
 .kindaorange {
     background-color: rgba(255, 213, 158);
+}
+
+.relative{
+    position: relative;
+}
+
+.marginbot{
+    margin-bottom: 20px;
+
+}
+
+.marginleft{
+    margin-left: 20px;
+}
+
+
+p{
+    text-align: justify;
+}
+input{
+    margin-bottom: 20px;
 }
